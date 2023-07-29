@@ -1,0 +1,2 @@
+{'level': 'SEVERE', 'message': 'https://www.saucedemo.com/inventory.html - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1690631564703}
+{'level': 'SEVERE', 'message': 'https://www.saucedemo.com/cart.html - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1690631566217}
