@@ -39,7 +39,7 @@ class CheckoutPage():
         return self
 
     def verify_item_total_price_is_expected(self):
-        browser.element('.summary_subtotal_label').should(have.texts('Item total: $9.99'))
+        browser.element('.summary_subtotal_label').should(have.text('Item total: $9.99'))
         return self
 
     def enter_finish_button(self):
@@ -51,13 +51,11 @@ class CheckoutPage():
         return self
 
     def verify_expected_messages_shown(self):
-        browser.element('.complete-header').should(have.texts('Thank you for your order!'))
-        browser.element('.complete-text').should(have.texts('Your order has been dispatched, and will arrive just as '
-                                                            'fast as the pony can get there!'))
+        browser.element('.complete-header').should(have.text('Thank you for your order!'))
+        browser.element('.complete-text').should(have.text('Your order has been dispatched, and will arrive just as '
+                                                           'fast as the pony can get there!'))
         return self
 
     def enter_back_home_button(self):
         browser.element('#back-to-products').click()
         return self
-
-
