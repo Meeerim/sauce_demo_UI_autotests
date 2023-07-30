@@ -16,12 +16,12 @@
 <br> 
 
 ### Specific scenarios that were checked
-* Unsuccessful Sign Up with Email Already Registered
-* Unsuccessful Sign Up with Weak Password
-* Successful Login with Valid Credentials
+* Successful Cart Checkout with Valid User details
 * Unsuccessful Login with Incorrect Password
-* Verify Bookmarked Job is Displayed on the Bookmarks Page
-* Positive Tests for Editing Profile Information
+* Successful Login of User with valid credentials
+* Verify that users can proceed to the checkout page from the cart page
+* Verify that users can remove items from the cart and the cart updates accordingly
+* Verify that users can add items to the cart and the cart updates accordingly
 <br>
 
 <!-- Jenkins -->
