@@ -1,4 +1,4 @@
-## UI Autotests project for workingnomads.com
+## UI Autotests project for saucelab.com
 ### Tools and a technologies used
 <p  align="center">
 <code><img width="5%" title="Python" src="images/python.png"></code>

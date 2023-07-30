@@ -10,7 +10,7 @@ packages = [{include = "sause_demo_ui_autotests"}]
 python = "^3.10"
 pytest = "7.2.2"
 selene ="2.0.0b17"
-allure-pytest = "^2.13.0"
+allure-pytest = "^2.12.0"
 python-dotenv = "^0.21.0"
 
 

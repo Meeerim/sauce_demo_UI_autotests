@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 30 22:36:22 GST 2023","Sun Jul 30 22:36:25 GST 2023","2664","tests","test_login_page","","","","test_unsuccessful_login",""
+"passed","Sun Jul 30 22:35:55 GST 2023","Sun Jul 30 22:35:56 GST 2023","1216","tests","test_cart_page","","","","test_cart_checkout",""
+"passed","Sun Jul 30 22:36:34 GST 2023","Sun Jul 30 22:36:37 GST 2023","2948","tests","test_login_page","","","","test_successful_login",""
+"passed","Sun Jul 30 22:35:42 GST 2023","Sun Jul 30 22:35:43 GST 2023","1339","tests","test_cart_page","","","","test_remove_product_from_cart",""
+"passed","Sun Jul 30 22:35:22 GST 2023","Sun Jul 30 22:35:26 GST 2023","3781","tests","test_cart_page","","","","test_add_product_to_cart",""
+"passed","Sun Jul 30 22:36:08 GST 2023","Sun Jul 30 22:36:14 GST 2023","5976","tests","test_checkout_page","","","","test_successful_checkout",""
