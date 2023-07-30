@@ -1,4 +1,8 @@
-## UI Autotests project for saucelab.com
+## UI Autotests project for SwagLabs. saucedemo.com
+An example of a clothing store maintained by people from SauceLab.
+This site is suitable for multi-page test scenarios, category filtering, and shipping cart testing.
+### <img width="2%" title="SwagLabs" src="images/sauce.png"> 
+
 ### Tools and a technologies used
 <p  align="center">
 <code><img width="5%" title="Python" src="images/python.png"></code>

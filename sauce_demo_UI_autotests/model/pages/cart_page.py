@@ -1,5 +1,4 @@
 from selene import browser, have, be
-from selene.support.jquery_style_selectors import s
 
 
 class CartPage:

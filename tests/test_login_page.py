@@ -1,5 +1,4 @@
 import allure
-import sys
 from sauce_demo_UI_autotests.data.users import user
 from sauce_demo_UI_autotests.model.application import app
 
