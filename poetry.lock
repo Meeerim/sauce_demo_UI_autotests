@@ -410,13 +410,13 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "selene"
-version = "2.0.0b17"
+version = "2.0.0rc2"
 description = "User-oriented browser tests in Python (Selenide port)"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "selene-2.0.0b17-py3-none-any.whl", hash = "sha256:7b87930960becb81efaf2bca375601b243010743dd0c02aa7c6e729b72df0f79"},
-    {file = "selene-2.0.0b17.tar.gz", hash = "sha256:a5fc137f11c4de1bbf8ef3e8a6bc27791cc85171932e84dc506bf5bddf1ebe7f"},
+    {file = "selene-2.0.0rc2-py3-none-any.whl", hash = "sha256:5258550de2a1cbbcadf5feb19bab5b084a4cb1affa551f149b6077499f0d15a6"},
+    {file = "selene-2.0.0rc2.tar.gz", hash = "sha256:d4ae8f2ac136834f04bf12d93c10c0da16feafea1d4247c8a9526b279ff860b5"},
 ]
 
 [package.dependencies]
@@ -427,20 +427,20 @@ webdriver-manager = ">=3.8.5"
 
 [[package]]
 name = "selenium"
-version = "4.10.0"
+version = "4.9.0"
 description = ""
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "selenium-4.10.0-py3-none-any.whl", hash = "sha256:40241b9d872f58959e9b34e258488bf11844cd86142fd68182bd41db9991fc5c"},
-    {file = "selenium-4.10.0.tar.gz", hash = "sha256:871bf800c4934f745b909c8dfc7d15c65cf45bd2e943abd54451c810ada395e3"},
+    {file = "selenium-4.9.0-py3-none-any.whl", hash = "sha256:4c19e6aac202719373108d53a5a8e9336ba8d2b25822ca32ae6ff37acbabbdbe"},
+    {file = "selenium-4.9.0.tar.gz", hash = "sha256:478fae77cdfaec32adb1e68d59632c8c191f920535282abcaa2d1a3d98655624"},
 ]
 
 [package.dependencies]
 certifi = ">=2021.10.8"
 trio = ">=0.17,<1.0"
 trio-websocket = ">=0.9,<1.0"
-urllib3 = {version = ">=1.26,<3", extras = ["socks"]}
+urllib3 = {version = ">=1.26,<2.0", extras = ["socks"]}
 
 [[package]]
 name = "sniffio"
@@ -474,6 +474,26 @@ files = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
 ]
+
+[[package]]
+name = "tqdm"
+version = "4.65.0"
+description = "Fast, Extensible Progress Meter"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tqdm-4.65.0-py3-none-any.whl", hash = "sha256:c4f53a17fe37e132815abceec022631be8ffe1b9381c2e6e30aa70edc99e9671"},
+    {file = "tqdm-4.65.0.tar.gz", hash = "sha256:1871fb68a86b8fb3b59ca4cdd3dcccbc7e6d613eeed31f4c332531977b89beb5"},
+]
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[package.extras]
+dev = ["py-make (>=0.1.0)", "twine", "wheel"]
+notebook = ["ipywidgets (>=6)"]
+slack = ["slack-sdk"]
+telegram = ["requests"]
 
 [[package]]
 name = "trio"
@@ -524,39 +544,39 @@ files = [
 
 [[package]]
 name = "urllib3"
-version = "2.0.4"
+version = "1.26.16"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 files = [
-    {file = "urllib3-2.0.4-py3-none-any.whl", hash = "sha256:de7df1803967d2c2a98e4b11bb7d6bd9210474c46e8a0401514e3a42a75ebde4"},
-    {file = "urllib3-2.0.4.tar.gz", hash = "sha256:8d22f86aae8ef5e410d4f539fde9ce6b2113a001bb4d189e0aed70642d602b11"},
+    {file = "urllib3-1.26.16-py2.py3-none-any.whl", hash = "sha256:8d36afa7616d8ab714608411b4a3b13e58f463aee519024578e062e141dce20f"},
+    {file = "urllib3-1.26.16.tar.gz", hash = "sha256:8f135f6502756bde6b2a9b28989df5fbe87c9970cecaa69041edcce7f0589b14"},
 ]
 
 [package.dependencies]
-pysocks = {version = ">=1.5.6,<1.5.7 || >1.5.7,<2.0", optional = true, markers = "extra == \"socks\""}
+PySocks = {version = ">=1.5.6,<1.5.7 || >1.5.7,<2.0", optional = true, markers = "extra == \"socks\""}
 
 [package.extras]
-brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)"]
-secure = ["certifi", "cryptography (>=1.9)", "idna (>=2.0.0)", "pyopenssl (>=17.1.0)", "urllib3-secure-extra"]
-socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
-zstd = ["zstandard (>=0.18.0)"]
+brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)", "brotlipy (>=0.6.0)"]
+secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "ipaddress", "pyOpenSSL (>=0.14)", "urllib3-secure-extra"]
+socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "webdriver-manager"
-version = "4.0.0"
+version = "3.8.6"
 description = "Library provides the way to automatically manage drivers for different browsers"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "webdriver_manager-4.0.0-py2.py3-none-any.whl", hash = "sha256:05f58ab599b907b03e0aa8d6b43624b1ca8c12d5d48455c79c531b9052ae2356"},
-    {file = "webdriver_manager-4.0.0.tar.gz", hash = "sha256:2b8d1c2cb590d296ade18bc7bc2589578a868f5587133922d744641f6a757a20"},
+    {file = "webdriver_manager-3.8.6-py2.py3-none-any.whl", hash = "sha256:7d3aa8d67bd6c92a5d25f4abd75eea2c6dd24ea6617bff986f502280903a0e2b"},
+    {file = "webdriver_manager-3.8.6.tar.gz", hash = "sha256:ee788d389b8f45222a8a62f6f39b579360a1f87be46dad6da89918354af3ce73"},
 ]
 
 [package.dependencies]
 packaging = "*"
 python-dotenv = "*"
 requests = "*"
+tqdm = "*"
 
 [[package]]
 name = "wsproto"
@@ -575,4 +595,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "13d8e77a100af457328f3e0bacb373960b8c2b6bb0bc11cb0cb8be143385f6e4"
+content-hash = "b955ade99a5eea4153f461c89cce9a58bc0cc6208c53bfa69e4bcf4b4ea0025d"
