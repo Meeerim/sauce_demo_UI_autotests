@@ -8,7 +8,6 @@
 <code><img width="5%" title="Selenium" src="images/selenium.png"></code>
 <code><img width="5%" title="Allure Report" src="images/allure_report.png"></code>
 <code><img width="5%" title="Allure TestOps" src="images/allure_testops.png"></code>
-<code><img width="5%" title="Jira" src="images/jira.png"></code>
 <code><img width="5%" title="Jenkins" src="images/jenkins.png"></code>
 <code><img width="5%" title="Selenoid" src="images/selenoid.png"></code>
 <code><img width="5%" title="Telegram Bot" src="images/tg.png"></code>
@@ -76,4 +75,4 @@ so there is no need in complex process of synchronization manual test-cases and 
 
 
 ### Video result of one of the tests
-<img src="images/screenshots/video.mp4" alt="video test" border="0" />
+<img src="images/screenshots/video.gif" alt="video test" border="0" />

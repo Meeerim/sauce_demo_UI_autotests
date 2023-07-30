@@ -9,8 +9,7 @@ packages = [{include = "sause_demo_ui_autotests"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "7.2.2"
-selene = "2.0.0b5"
-selenium = "4.2.0"
+selene = "2.0.0b16"
 allure-pytest = "^2.13.0"
 python-dotenv = "^0.21.0"
 
