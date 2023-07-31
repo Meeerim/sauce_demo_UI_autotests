@@ -1,7 +1,0 @@
-"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","Login with invalid data","Checking if an error is displayed when entering a password that is not in the system","0","0","1","0","0"
-"","Cart checkout","Verify that users can proceed to the checkout page from the cart page.","0","0","1","0","0"
-"","Sign in","Successful login and expected redirection of URL","0","0","1","0","0"
-"","Remove Item from Cart","Verify that users can remove items from the cart and the cart updates accordingly.","0","0","1","0","0"
-"","Add Product to Cart","Verify that users can add items to the cart and the cart updates accordingly.","0","0","1","0","0"
-"","Successful Checkout with Valid User Information","Verify that a user with valid information can successfully complete the checkout process and reach the order confirmation page.","0","0","1","0","0"

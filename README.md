@@ -1,7 +1,8 @@
 ## UI Autotests project for SwagLabs. saucedemo.com
 An example of a clothing store maintained by people from SauceLab.
 This site is suitable for multi-page test scenarios, category filtering, and shipping cart testing.
-### <img width="2%" title="SwagLabs" src="images/sauce.png"> 
+### <img width="5%" title="SwagLabs" src="images/sauce.png"> 
+
 
 ### Tools and a technologies used
 <p  align="center">
@@ -31,7 +32,7 @@ This site is suitable for multi-page test scenarios, category filtering, and shi
 <!-- Jenkins -->
 
 ### <img width="3%" title="Jenkins" src="images/jenkins.png"> Running tests from Jenkins
-### [Job](https://jenkins.autotests.cloud/job/meerim_diplom_work_api_tests/)
+### [Job](https://jenkins.autotests.cloud/job/meerim_final_diplom_project_web/)
 ##### Main page of the build:
 ![This is an image](images/screenshots/jenkins.png)
 ##### After the build is done the test results are available in Allure Report and Allure TestOps
@@ -47,17 +48,22 @@ This site is suitable for multi-page test scenarios, category filtering, and shi
 >- <code><strong>*SUITES*</strong></code> - distribution of tests by suites
 >- <code><strong>*CATEGORIES*</strong></code> - distribution of unsuccessful tests by defect types
 
-![This is an image](images/screenshots/allure_dashboard.png)
+![This is an image](images/screenshots/allure_testops_dashboard.png)
 
 
 ##### On the page the list of the tests grouped by suites with status shown for each test.
-![This is an image](images/screenshots/allure_suites.png)
+![This is an image](images/screenshots/allure_report_suites.png)
+
+#### For each tests attachments of test results attached.Such as screenshots, page source, browser logs and video 
+
+### Video result of one of the tests
+<img src="images/screenshots/video.gif" alt="video test" border="0" />
 
 
 <!-- Allure TestOps -->
 
 ### <img width="3%" title="Allure TestOps" src="images/allure_testops.png"> Allure TestOps Integration
-### [Dashboard](https://allure.autotests.cloud/project/3560/dashboards)
+### [Dashboard](https://allure.autotests.cloud/project/3584/dashboards)
 ##### Results are uploaded there and the automated test-cases can be automatically updated accordingly to the recent changes in the code.
 ![This is an image](images/screenshots/allure_testops_dashboard.png)
 
@@ -67,7 +73,7 @@ They also include all members of the council who can use tests for their own nee
 Test-cases in the project are imported and constantly updated from the code,
 so there is no need in complex process of synchronization manual test-cases and autotests.
 
-![This is an image](images/screenshots/test_suites.png)
+![This is an image](images/screenshots/allure-suites.png)
 
 
 <!-- Telegram -->
@@ -78,5 +84,4 @@ so there is no need in complex process of synchronization manual test-cases and 
 ![This is an image](images/screenshots/tg_bot.png)
 
 
-### Video result of one of the tests
-<img src="images/screenshots/video.gif" alt="video test" border="0" />
+
